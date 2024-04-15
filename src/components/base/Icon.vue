@@ -2,8 +2,8 @@
   <!-- download -->
   <g v-if="name === 'download'">
     <svg
-      width="800px"
-      height="800px"
+      width="25px"
+      height="25px"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -22,8 +22,8 @@
   <!-- arrow-left -->
   <g v-else-if="name === 'arrow-left'">
     <svg
-      width="800px"
-      height="800px"
+      width="25px"
+      height="25px"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -41,8 +41,8 @@
   <!-- arrow-right -->
   <g v-else-if="name === 'arrow-right'">
     <svg
-      width="800px"
-      height="800px"
+      width="25px"
+      height="25px"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -60,8 +60,8 @@
   <!--  chat -->
   <g v-else-if="name === 'chat'">
     <svg
-      width="800px"
-      height="800px"
+      width="25px"
+      height="25px"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -78,8 +78,8 @@
   <!-- user -->
   <g v-else-if="name === 'user'">
     <svg
-      width="800px"
-      height="800px"
+      width="25px"
+      height="25px"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -105,8 +105,8 @@
   <g v-else-if="name === 'basket'">
     <svg
       fill="#000000"
-      width="800px"
-      height="800px"
+      width="25px"
+      height="25px"
       viewBox="0 0 32 32"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
@@ -121,8 +121,8 @@
   <g v-else-if="name === 'tick'">
     <svg
       fill="#000000"
-      width="800px"
-      height="800px"
+      width="25px"
+      height="25px"
       viewBox="0 0 1024 1024"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -135,8 +135,8 @@
   <!-- close -->
   <g v-else-if="name === 'close'">
     <svg
-      width="800px"
-      height="800px"
+      width="25px"
+      height="25px"
       viewBox="-0.5 0 25 25"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -161,8 +161,8 @@
   <!-- power -->
   <g v-else-if="name === 'power'">
     <svg
-      width="800px"
-      height="800px"
+      width="25px"
+      height="25px"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -176,11 +176,12 @@
       />
     </svg>
   </g>
-
+  
+  <!-- setting -->
   <g v-else-if="name === 'setting'">
     <svg
-      width="800px"
-      height="800px"
+      width="25px"
+      height="25px"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -209,8 +210,8 @@
   <!-- share -->
   <g v-else-if="name === 'share'">
     <svg
-      width="800px"
-      height="800px"
+      width="25px"
+      height="25px"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -227,8 +228,8 @@
   <!-- search-->
   <g v-else-if="name === 'search'">
     <svg
-      width="800px"
-      height="800px"
+      width="25px"
+      height="25px"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -245,8 +246,8 @@
   <!-- archive -->
   <g v-else-if="name === 'archive'">
     <svg
-      width="800px"
-      height="800px"
+      width="25px"
+      height="25px"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -263,8 +264,8 @@
   <!-- publish -->
   <g v-else-if="name === 'publish'">
     <svg
-      width="800px"
-      height="800px"
+      width="25px"
+      height="25px"
       viewBox="0 0 512 512"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
