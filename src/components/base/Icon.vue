@@ -241,6 +241,52 @@
       />
     </svg>
   </g>
+
+  <!-- archive -->
+  <g v-else-if="name === 'archive'">
+    <svg
+      width="800px"
+      height="800px"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M6.24223 4.5H17.7578L19.5 8.85556V18L18.75 18.75H5.25L4.5 18V8.85556L6.24223 4.5ZM7.25777 6L6.35777 8.25H17.6422L16.7422 6H7.25777ZM18 9.75H6V17.25H18V9.75ZM9.59473 13.6553L10.6554 12.5946L11.25 13.1892V11.25H12.75V13.1894L13.3447 12.5946L14.4054 13.6553L12.0001 16.0606L9.59473 13.6553Z"
+        fill="#080341"
+      />
+    </svg>
+  </g>
+
+  <!-- publish -->
+  <g v-else-if="name === 'publish'">
+    <svg
+      width="800px"
+      height="800px"
+      viewBox="0 0 512 512"
+      version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+    >
+      <title>publish</title>
+      <g
+        id="Page-1"
+        stroke="none"
+        stroke-width="1"
+        fill="none"
+        fill-rule="evenodd"
+      >
+        <g id="icon" fill="#000000" transform="translate(85.333333, 45.554327)">
+          <path
+            d="M192,7.10542736e-15 L355.849623,152.146079 L326.817043,183.411935 L213.333,78.022 L213.333333,253.11234 C213.333333,333.868643 149.231288,399.653112 69.1338614,402.359081 L64,402.445673 L1.42108547e-14,402.445673 L1.42108547e-14,359.779007 L64,359.779007 C121.3601,359.779007 168.145453,314.50313 170.568117,257.739319 L170.666667,253.11234 L170.666,78.023 L57.1829568,183.411935 L28.1503765,152.146079 L192,7.10542736e-15 Z"
+            id="Combined-Shape"
+          ></path>
+        </g>
+      </g>
+    </svg>
+  </g>
 </template>
 
 <script setup>
